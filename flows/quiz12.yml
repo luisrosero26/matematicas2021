@@ -1,0 +1,47 @@
+completion_text: |-
+  Finalizaste el Quiz # 1
+description: |-
+  El Quiz # 1 sera basado en ...
+groups:
+- id: intro
+  pages:
+  - content: "#Quiz # 1\nEl Quiz # 1 sera basado en ... El Quiz # 1 sera basado en\
+      \ ...</div>\n                        "
+    id: welcome
+    type: Page
+- id: quiz_start
+  pages:
+  - answers:
+    - rtol: 0.0
+      type: float
+      value: '8'
+    id: quizquestion25
+    prompt: '#Cuanto es 4 + 4
+
+      None'
+    type: TextQuestion
+    value: 5.0
+  shuffle: false
+rules:
+  access:
+  - message: Welcome! This message is brought to you by the access rules.
+    permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz12
+  grading:
+  - credit_percent: 100
+  start:
+  - if_before: 2020-06-16 15:44:28
+    if_has_fewer_sessions_than: 2
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+title: 'Quiz # 1'
