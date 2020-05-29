@@ -1,0 +1,20 @@
+completion_text: |-
+  Finalizaste la primera semana con exito
+  <a href="flow:quiz12" class="btn btn-primary">Ir al Quiz #1</a>
+description: "Semana1 descripci\xF3n del curso de matematicas 2021"
+pages:
+- content: "#D\xEDa 1\n<div class=\"lead\">contenido del d\xEDa 1 de matematicas</div>\n\
+    \                "
+  id: page24
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ''
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: Semana1
