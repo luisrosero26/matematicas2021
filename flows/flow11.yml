@@ -9,9 +9,9 @@ description: "<p>Semana1 descripci\xF3n del curso de matematicas 2021</p>\r\n<p>
   \ a galley of type and scrambled it to make a type specimen book. It has survived\
   \ not only five centuries.</p>"
 pages:
-- content: "#D\xEDa 1\n<div class=\"lead\">contenido del d\xEDa 1 de matematicas</div>\n\
-    \                "
+- content: "contenido del d\xEDa 1 de matematicas"
   id: page24
+  title: "D\xEDa 1"
   type: Page
 rules:
   access:
