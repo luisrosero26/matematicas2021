@@ -16,7 +16,6 @@ pages:
 rules:
   access:
   - if_has_role:
-    - ''
     - ta
     - student
     - instructor
