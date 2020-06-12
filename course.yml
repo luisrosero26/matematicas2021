@@ -9,6 +9,6 @@ chunks:
     title: Semana1
     title_next_flow: 'Ir al Quiz #1'
   id: welcome
-  introduction: null
+  introduction: "Introducci\xF3n del curso de matematicas 2021"
   rules: []
   title: mate2021
