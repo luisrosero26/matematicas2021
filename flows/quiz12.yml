@@ -37,7 +37,7 @@ rules:
   - credit_percent: 100
   start:
   - if_before: 2020-06-16 15:44:28
-    if_has_fewer_sessions_than: 2
+    if_has_fewer_sessions_than: 10
     if_has_role:
     - student
     - ta
