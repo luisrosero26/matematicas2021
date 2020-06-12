@@ -5,9 +5,9 @@ description: |-
 groups:
 - id: intro
   pages:
-  - content: "#Quiz # 1\nEl Quiz # 1 sera basado en ... El Quiz # 1 sera basado en\
-      \ ...</div>\n                        "
+  - content: "El Quiz # 1 sera basado en ... El Quiz # 1 sera basado en ... "
     id: welcome
+    title: 'Quiz # 1'
     type: Page
 - id: quiz_start
   pages:
@@ -16,15 +16,15 @@ groups:
       type: float
       value: '8'
     id: quizquestion25
-    prompt: '#Cuanto es 4 + 4
-
-      None'
+    prompt: ''
+    title: Cuanto es 4 + 4
     type: TextQuestion
     value: 5.0
   shuffle: false
 rules:
   access:
-  - message: Welcome! This message is brought to you by the access rules.
+  - message: "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de\
+      \ acceso"
     permissions:
     - view
     - submit_answer
